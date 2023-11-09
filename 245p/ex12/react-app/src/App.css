@@ -1,0 +1,64 @@
+/* App.css */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #17408B;
+  padding: 50px 25px 50px 25px;
+  text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #C9082A;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Declare a selector for h1, and p separately, and set colors (different than black) for the font of those selectors. */
+h1 {
+  color: blue;
+}
+
+/* Selector for p elements */
+p {
+  color: gray;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .App-header,
+  nav,
+  article {
+    display: block;
+  }
+}
