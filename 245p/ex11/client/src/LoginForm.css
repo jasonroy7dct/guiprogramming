@@ -1,0 +1,21 @@
+.username {
+    padding-top: 10px;
+}
+
+.password {
+    padding-top: 10px;
+}
+
+.submit_button {
+    padding-top: 20px;
+}
+
+#login-button {
+    margin-top: 20px; /* Adjust the margin to move the button down */
+    background-color: burlywood;
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Add padding for a curved appearance */
+    border-radius: 5px; /* Add border-radius for a curved appearance */
+    cursor: pointer;
+}
