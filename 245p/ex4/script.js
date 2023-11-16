@@ -36,6 +36,7 @@ function setup() {
   p4 = new Triangle(50, 20);
 }
 
+// create more moves
 function draw() {
   background(0);
   p1.update();

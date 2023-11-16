@@ -42,6 +42,7 @@ class Box extends Particle {
     }
 }
 
+// create more shapes
 class Circle extends Particle {
     constructor(x, y) {
       super(x, y);
