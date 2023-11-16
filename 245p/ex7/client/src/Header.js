@@ -10,8 +10,8 @@ function Header() {
         </a>
         <div className="headerRight">
           <a className="active" href="#home">Home</a>
-          <a href="#contact">Location</a>
-          <a href="#about">Job</a>
+          <a href="#location">Location</a>
+          <a href="#job">Job</a>
         </div>
       </div>
     </>
